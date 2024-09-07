@@ -7,6 +7,10 @@ img {
     height: auto;
 }
 
+main {
+    padding-bottom: 5%; 
+}
+
 .col-md-4 {
     padding: 1.25%; 
 }
@@ -17,6 +21,16 @@ img {
     object-fit: cover;
     border-radius: 0; /* Optional: remove if you prefer square images without rounded corners */
     border: 5px solid #996515; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    background-color: white; 
+}
+
+.drawings {
+    width: 80%; 
+    height: 100%; 
+    object-fit: cover;
+    border-radius: 0; /* Optional: remove if you prefer square images without rounded corners */
+    border: 5px solid black; 
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
     background-color: white; 
 }

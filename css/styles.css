@@ -1,9 +1,30 @@
+body {
+    padding-bottom: 7%; 
+}
+
 img {
     width: 80px;
     height: auto;
 }
 
-body {
-    padding-bottom: 7%; /* Adjust this value based on the height of your footer */
+.col-md-4 {
+    padding: 1.25%; 
 }
 
+.square-portrait {
+    width: 66%; 
+    height: 66%; 
+    object-fit: cover;
+    border-radius: 0; /* Optional: remove if you prefer square images without rounded corners */
+    border: 5px solid #996515; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    background-color: white; 
+}
+
+
+.role-style {
+    font-family: 'Merriweather', serif; 
+    font-size: 1.5em; 
+    font-weight: bolder;
+    color: #333; 
+}

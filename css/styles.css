@@ -2,3 +2,8 @@ img {
     width: 80px;
     height: auto;
 }
+
+body {
+    padding-bottom: 7%; /* Adjust this value based on the height of your footer */
+}
+

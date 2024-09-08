@@ -11,6 +11,13 @@ main {
     padding-bottom: 5%; 
 }
 
+/* New media query for mobile devices */
+@media (max-width: 768px) {
+    body, main {
+        padding-bottom: 15%; 
+    }
+}
+
 .col-md-4 {
     padding: 1.25%; 
 }

@@ -58,7 +58,9 @@ main {
 
 @media (max-width: 768px) {
     .map-container iframe,
-    .calendar-container iframe {
+    .calendar-container iframe
+    .video-container
+    .video-container iframe {
         min-height: 250px; /* Adjusts the minimum height for smaller devices */
     }
 }
@@ -78,3 +80,11 @@ main {
     height: 100%;
 }
 
+@media (max-width: 768px) {
+    .map-container iframe,
+    .calendar-container iframe
+    .video-container
+    .video-container iframe {
+        min-height: 250px; /* Adjusts the minimum height for smaller devices */
+    }
+}

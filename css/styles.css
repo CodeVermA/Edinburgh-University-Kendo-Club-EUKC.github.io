@@ -88,3 +88,15 @@ main {
         min-height: 250px; /* Adjusts the minimum height for smaller devices */
     }
 }
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adjust space between images */
+}
+
+.image-container img {
+    width: 300px; /* Adjust image width */
+    height: auto; /* Maintain aspect ratio */
+}
